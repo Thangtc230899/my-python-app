@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Trang chính</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="sidebar">
+        <a href="{{ url_for('home') }}">🏠 Trang chủ</a>
+        <a href="{{ url_for('history') }}">📜 Lịch sử</a>
+        <a href="{{ url_for('settings') }}">⚙️ Cài đặt</a>
+    </div>
+    <div class="main-content">
+        <h1>Chào mừng đến với hệ thống!</h1>
+        <p>Chọn một mục ở menu bên trái để tiếp tục.</p>
+    </div>
+</body>
+</html>
