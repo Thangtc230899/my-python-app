@@ -1,0 +1,55 @@
+body {
+     font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #007BFF, #00C6FF);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.company-logo {
+    width: 120px;
+    height: auto;
+    display: block;
+    margin: 0 auto 15px auto;
+}
+.login-container {
+    margin: auto;
+    width: 300px;
+    text-align: center;
+}
+
+.login-container input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #284969;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.sidebar a {
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px solid #34495e;
+}
+
+.sidebar a:hover {
+    background-color: #34495e;
+}
+
+.main-content {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.error {
+    color: red;
+}
