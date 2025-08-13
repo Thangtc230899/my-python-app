@@ -7,6 +7,9 @@
 </head>
 <body>
     <div class="login-container">
+        <!-- Logo công ty -->
+        <img src="{{ url_for('static', filename='logo.png') }}" alt="Logo Công ty" class="company-logo">
+
         <h2>Đăng nhập hệ thống</h2>
         <form method="POST">
             <input type="text" name="username" placeholder="Tên đăng nhập" required><br>
@@ -19,3 +22,4 @@
     </div>
 </body>
 </html>
+
